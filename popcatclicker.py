@@ -1,8 +1,8 @@
 from selenium import webdriver # 先在TERMINAL "pip install selenium"
 import time
 
-PATH="D:/chromedriver.exe"
-driver=webdriver.Chrome(PATH)
+# PATH="D:/chromedriver.exe"
+driver=webdriver.Chrome()
 url='https://popcat.click/'
 driver.get(url)
 cat=driver.find_element_by_id('app')
